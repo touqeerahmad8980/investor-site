@@ -568,3 +568,65 @@ section{
 #myCarousel{
     box-shadow: 0 0 75px #000;
 }
+
+@media all and (max-width:800px){
+    .home_banner .heading{font-size: 25px;}
+    .investement-section .investment_box_list{flex-wrap: wrap;}
+    .investement-section .investment_box_list .single_item{width: 100%;margin-bottom: 20px;}
+    .services-section .image_list_wrap .single_item{width: 100%;}
+    .who-we-are .heading,
+    .section-heading{font-size: 25px !important;margin-bottom: 30px !important;}
+    .features-section .logo-list img{width: 40%;}
+    .who-we-are{padding-top: 40px !important;}
+    .home_banner{min-height:500px;padding-top:270px;padding-bottom:50px;}
+    .home_banner .desc{font-size:15px !important;}
+    .main-header .navbar{align-items: flex-start !important;}
+    .main-header .navbar-dark .navbar-toggler{
+        color: #fff;
+        border-color: #fff;
+        margin-top: 10px;
+    }
+    .main-header .navbar-collapse{
+        background-color: rgb(42, 53, 63);
+        padding: 0 10px;
+        border-radius: 5px;
+        position: absolute;
+        width: calc(100% - 30px);
+        top: 60px;
+    }
+    .main-header .navbar-dark .navbar-nav .nav-link{color: #fff;text-align: center;border-bottom:1px solid #fff;}
+    .main-header .navbar-dark .navbar-nav .nav-item:last-child .nav-link{border-bottom:none;}
+    .main-header .navbar-dark .navbar-nav .nav-link:hover{background-color: rgba(35, 149, 245,1); color: #fff;text-align: center;}
+    .footer-section .columns_wrap{flex-wrap: wrap;}
+    .footer-section .columns_wrap>div{width:50% !important;padding-right: 20px;}
+    .triangle-shap{    
+        border-left: 100px solid transparent;
+        border-right: 100px solid transparent;
+        border-top: 5px solid #eeecef;
+        bottom: -5px;
+    }
+    .main-header .content_wrap{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo-wrap{
+        margin-top: 30px !important;
+    }
+    .main-header .content_wrap .link-wrap{
+        width: 100%;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    .main-header .content_wrap .link-wrap .top-links{
+        display: none;
+    }
+    .main-header .main-links{
+        flex-wrap: wrap;
+        justify-content: inherit;
+    }
+    .main-header .main-links li a{
+        color: #fff;
+    }
+    .main-header .main-links li:nth-child(4) a::after{display: none;}
+}
